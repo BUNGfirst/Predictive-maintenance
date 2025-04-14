@@ -1,26 +1,28 @@
-# Predictive-Maintenance
+# Predictive Maintenance using Machine Learning
 
-This project aims to build a predictive model that classifies:
-- Whether a machine is going to fail (binary classification)
-- The type of failure (multiclass classification: 0–5)
+This project applies machine learning to predict potential failures in industrial machines using the AI4I 2020 dataset.
 
-## Project Structure
-- `Preprocessing.ipynb` → Clean and balance data
-- `Model.ipynb` → Binary classification (fail or not)
-- `Model2.ipynb` → Multiclass failure type classification
-- `predictive_*.npz` → Processed datasets
+## 📊 Dataset
+- Source: [Kaggle - Machine Predictive Maintenance](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance)
+- Features include: air temperature, process temperature, torque, tool wear, machine type, failure types
 
-## Result
-- Binary model accuracy: 90.2%
-- Multiclass model accuracy: 65.8%
-- Confusion matrix + recall per class used for evaluation
+## 🔧 Tools Used
+- Python (Pandas, Matplotlib, Seaborn)
+- Scikit-learn for modeling
+- [Optionally] Power BI / Tableau for dashboarding
 
-## Techniques
-- Neural Networks with TensorFlow/Keras
-- class_weight to handle data imbalance
-- Evaluation using accuracy, confusion matrix, recall per class
+## 🧠 Key Steps
+1. Data cleaning and preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature engineering
+4. Building and evaluating classification models (e.g. Logistic Regression, Random Forest)
+5. Visualization of results
 
-## What I learned
-- Handling imbalanced classification
-- Designing multi-model architecture
-- Model evaluation beyond just accuracy
+## 🎯 Goal
+Predict whether a machine is likely to fail, and provide actionable insights for maintenance planning.
+
+## 📸 Preview
+> *(Add a screenshot of a chart or your model output here later)*
+
+## 🚀 Author
+Manuchatip Panuparin
